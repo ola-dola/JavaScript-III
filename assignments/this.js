@@ -19,6 +19,15 @@
 // Principle 1
 
 // code example for Window Binding
+// ---Example 1---
+console.log(this);
+
+//---Example 2---
+function tunde() {
+  console.log(this.external);
+}
+
+tunde();
 
 // Principle 2
 
